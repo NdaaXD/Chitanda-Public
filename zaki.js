@@ -1208,8 +1208,7 @@ case 'antilink':
                                 urlButton: {
                                     displayText: 'Group Bot',
                                     url: 'https://chat.whatsapp.com/E14rIyYMuovIfkskhi5QN9'
-                                }
-                            }, {
+                                             }, {
                                 quickReplyButton: {
                                     displayText: 'Owner',
                                     id: 'owner'
@@ -1232,7 +1231,7 @@ case 'antilink':
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Group Bot',
-                                    url: 'https://chat.whatsapp.com/E14rIyYMuovIfkskhi5QN9'
+                                    url: 'https://chat.whatsapp.com/HhHDKEpxtyC8B1cj3KGhlS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2123,8 +2122,8 @@ View list of message with ${prefix}listmsg`)
 				this.anonymous = this.anonymous ? this.anonymous : {}
 				let buttons = [{
                                 urlButton: {
-                                    displayText: 'YouTube',
-                                    url: 'https://m.youtube.com/channel/UCHdipvk52k43KsPRenGpD0w'
+                                    displayText: 'Gtou',
+                                    url: 'https://chat.whatsapp.com/HhHDKEpxtyC8B1cj3KGhlS'
                                 }
                             }]
                 Zaki.sendButtonText(m.chat, buttons, `\`\`\`Hi ${await Zaki.getName(m.sender)} Welcome To Anonymous Chat\n\nClick The Button Below To Find A Partner\`\`\``, Zaki.user.name, m)
@@ -2312,12 +2311,12 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'owner': case 'creator': {
                 let vcard = 'BEGIN:VCARD\n'
     + 'VERSION:3.0\n' 
-    + 'N:;KiZakiXD;;;'
-    + 'FN:KiZakiXD\n'
-    + 'ORG:𝙸 𝙰𝚖 𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳;\n'
-    + 'item1.TEL;type=CELL;type=VOICE;waid=6285878313791:+62 858-7831-3791\n' 
-    + 'item1.X-ABLabel:Creator Chitanda - MDt\n'
-    + 'item2.EMAIL;type=INTERNET:helloiamkizakixd@gmail.com\n'
+    + 'N:;Ndaa;;;'
+    + 'FN:ndaa\n'
+    + 'ORG:𝙸 𝙰𝚖 Ndaa;\n'
+    + 'item1.TEL;type=CELL;type=VOICE;waid=6282145614361:+62 821-4561-4361\n' 
+    + 'item1.X-ABLabel:Creator Ndaa - MDt\n'
+    + 'item2.EMAIL;type=INTERNET:ndaatzy123@gmail.com\n'
     + 'item2.X-ABLabel:Email\n'
     + 'item3.URL:https://instagram.com/iamkizakixd\n'
     + 'item3.X-ABLabel:Instagram\n'
@@ -2342,16 +2341,16 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./media/Zaki.jpg')},
-                            hydratedFooterText: `𝙸 𝙰𝚖 𝙺𝚒𝚉𝚊𝚔𝚒𝚇𝙳 | © 2022`,
+                            hydratedFooterText: `𝙸 𝙰𝚖 Ndaa | © 2022`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube',
-                                    url: 'https://m.youtube.com/channel/UCHdipvk52k43KsPRenGpD0w'
+                                    displayText: 'Group',
+                                    url: 'https://chat.whatsapp.com/HhHDKEpxtyC8B1cj3KGhlS'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Group',
-                                    url: 'https://chat.whatsapp.com/E14rIyYMuovIfkskhi5QN9'
+                                    url: 'https://chat.whatsapp.com/HhHDKEpxtyC8B1cj3KGhlS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2579,12 +2578,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/iamkizakixd'
+                                    url: 'https://instagram.com/'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 821-4561-4361'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2593,8 +2592,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Script',
-                                    id: 'sc'
+                                    displayText: 'owner',
+                                    id: 'owner'
                                 }  
                             }, {
                                 quickReplyButton: {
@@ -2613,6 +2612,7 @@ txt = `
    *｢  THANKS TO  ｣*  
 • Allah Swt.
 • Nabi Muhammad Saw.
+• Ndaa
 • Kedua Orang Tua
 • Dika Ardnt
 • Diri Sendiri
